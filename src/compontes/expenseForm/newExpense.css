@@ -1,0 +1,25 @@
+.searchBox{
+    display: none;
+}
+.SearchBtn button{
+    padding: 15px 20px;
+    font-weight: 600;
+    margin-right: 8px;
+    border-radius: 12px;
+    background-color: rgba(57, 0, 110, 0.901);;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin-top: 3rem;
+}
+.SearchBtn{
+    border-radius: 10px;
+    padding: 3px;
+    justify-content: space-between;
+    margin: 3rem auto;
+    width: 55%;
+    height: 10rem;
+    background-color: rgba(109, 109, 255, 0.889);
+    text-align: center;
+}

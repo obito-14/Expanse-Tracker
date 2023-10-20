@@ -1,0 +1,68 @@
+.mainContainer1 {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 10px;
+  justify-content: space-between;
+  margin: 10px auto;
+  width: 55%;
+  background-color: rgba(109, 109, 255, 0.889);
+}
+.Box1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 5px;
+}
+.Box2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 5px;
+  margin-bottom: 20px;
+}
+.Title1 {
+  display: flex;
+  flex-direction: column;
+}
+.Amount1 {
+  display: flex;
+  flex-direction: column;
+}
+.Date1 {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  margin: 5px 0px;
+  font-weight: 600;
+}
+.BtnS {
+  display: flex;
+  margin-top: 60px;
+}
+.Btn1 {
+  padding: 15px 20px;
+  font-weight: 600;
+  margin-right: 8px;
+  border-radius: 12px;
+  background-color: rgba(57, 0, 110, 0.901);
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.inputBox {
+  width: 15rem;
+  min-width: 5rem;
+  outline: none;
+  height: 1.5rem;
+  border-radius: 4px;
+  border: none;
+  padding: 4px;
+}
+@media all and (max-width: 455px) {
+  .mainContainer1 {
+    width: 80%;
+  }
+}
